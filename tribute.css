@@ -1,0 +1,95 @@
+body {
+	  font-family: Times New Roman;
+	  margin-top: auto;
+	  background-color: #ccc;
+      }
+.jumbotron {
+	text-align: center;
+	margin-top:5%;
+	margin-bottom: 5%;
+	margin-left:4%;
+	margin-right:4%;
+}
+
+p{
+	font-size:18;
+}
+footer p{
+	text-align: center;
+	font-size:30;
+}
+.box-container{
+	 justify-content: center;
+}
+.align{
+text-align: left;
+font-size:30;
+}
+.text-center h1{
+	color: red;
+}
+.text-center h4{
+	color: blue;
+
+}
+.text-center p{
+	color: blue;
+	font-size:30;
+}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+a:hover{
+    background-color: yellow;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

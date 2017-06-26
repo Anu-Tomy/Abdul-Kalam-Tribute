@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="tribute.css"/>
+  <title>A Tribute to Dr. A.P.J.Abdul Kalam</title>
+</head>
+<body>
+<div class = "container">
+	<div class="jumbotron">
+        <div class="row">
+            <div class="text-center">
+				<h1>Dr. A.P.J.Abdul Kalam</h1>
+				<h4><em><strong>Missile Man of India</em></strong></h4>
+
+				<h3>A.P.J.Abdul Kalam was the eleventh President of India. Mr.Kalam is not only a politician but he is also a scienitist, an engineer, a writer, and a scholar. Success followed him, Prithvi, Agni, Akash, Trisul and Nag missiles were huge successes.</h3>
+
+			</div>
+		</div>
+	</div>
+
+</head>
+<body>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="http://punjabnewsexpress.com/images/gallery/full415.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="http://www.kostalife.com/wp-content/uploads/2015/07/abdul-kalam-inspirational-quotes-1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="http://www.kostalife.com/wp-content/uploads/2015/07/abdul-kalam-inspirational-quotes-2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="http://dekhnews.com/wp-content/uploads/2015/07/387793_233905463346961_180173012053540_542539_1599393384_n.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="https://s-media-cache-ak0.pinimg.com/originals/9a/c5/47/9ac547d05767f70c76a6685d5f2b7810.jpg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+	<div class="jumbotron">
+			<div class="row">
+				<h3 class="box-container">Here's a time line of Dr. A.P.J.Abdul Kalam's life:</h3>
+			<ul class="align">
+				<li><strong>1931 - </strong>Born in Rameswaram, Tamil Nadu, India</li>
+				<li><strong>1954 - </strong>Graduated from the Saint Joseph's College, Tiruchirappalli</li>
+				<li><strong>1960 - </strong>Joined the Aeronautical Development Establishment of the Defence Research and Development Organisation (DRDO)</li>
+				<li><strong>1969 - </strong>Transferred to the Indian Space Research Organisation (ISRO)</li>
+				<li><strong>1970s - </strong>Directed Project Devil and Project Valiant</li>
+				<li><strong>1982 -1983 - </strong>Became the chief executive of Integrated Guided Missile Development Program (IGMDP)</li>
+				<li><strong>1990 - </strong>Awarded the Padma Vibhushan</li>
+				<li><strong>1992 - </strong>Appointed the Chief Scientific Adviser to the Prime Minister and the Secretary of the Defence Research and Development Organisation</li>
+				<li><strong>1997 - </strong>Awarded the Bharat Ratna</li>
+				<li><strong>2002 - </strong>Became the 11th President of India</li>
+				<li><strong>2007 - </strong>Stepped down from the presidency of India</li>
+				<li><strong>2012 - </strong>Launched a programme for the youth of India called the  What Can I Give Movement </li>
+				<li><strong>2015 - </strong>Died of a cardiac arrest on 27 July.</li>
+			</ul>
+		<br>
+		<p>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam">Wikipedia entry.</a></p>
+		</div>
+		</div>
+    </div>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<div>
+	<footer class="text-center">
+		<p>Written and coded by: Anu Tomy.</p>
+	</footer>
+	</div>
+</div>
+</body>
+</html>
